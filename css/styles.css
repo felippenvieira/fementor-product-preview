@@ -59,7 +59,7 @@ section {
 
 @media (max-width: 800px) {
   section {
-    max-height: 70%;
+    max-height: 70vh;
   }
 }
 
@@ -82,6 +82,12 @@ h1 {
   font-family: "Fraunces", serif;
   font-size: 2.75rem;
   align-self: center;
+}
+
+@media (max-width: 800px) {
+  h1 {
+    margin: 0;
+  }
 }
 
 p {
@@ -141,4 +147,10 @@ footer {
   box-sizing: border-box;
   align-self: end;
   font-family: "Montserrat", sans-serif;
+}
+
+@media (max-width: 800px) {
+  footer {
+    display: none;
+  }
 }
